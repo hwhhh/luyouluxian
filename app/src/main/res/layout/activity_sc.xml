@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/nodate"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="还没有添加数据"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/title" />
+
+        <View
+            android:background="@color/huise"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        </ListView>
+
+<!--        <LinearLayout-->
+<!--            android:gravity="center"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="vertical">-->
+<!--            <Button-->
+<!--                android:id="@+id/jump"-->
+<!--                android:textColor="@color/bai"-->
+<!--                android:background="@drawable/button2"-->
+<!--                android:text="拍照上传"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--            </Button>-->
+<!--        </LinearLayout>-->
+    </LinearLayout>
+
+</FrameLayout>

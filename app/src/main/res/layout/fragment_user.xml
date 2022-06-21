@@ -1,0 +1,147 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/main1"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+          >
+            <ImageView
+                android:src="@mipmap/yonghu"
+                android:layout_width="80dp"
+                android:layout_height="80dp"></ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/name"
+                android:textColor="@color/bai"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="登陆/注册"
+                android:textSize="16sp"
+                ></TextView>
+            </LinearLayout>
+        </LinearLayout>
+            <TextView
+                android:id="@+id/tv_address"
+                android:textColor="@color/bai"
+                android:layout_marginLeft="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="登陆/注册"
+                android:gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:textSize="16sp"
+                ></TextView>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_margin="5dp"
+                    android:id="@+id/updatemy"
+                    android:text="修改个人信息"
+                    android:gravity="center_vertical"
+                    android:textSize="16sp"
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/huise"/>
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/tv_like"
+                        android:text="我的收藏"
+                        android:gravity="center_vertical"
+                        android:textSize="16sp"
+                        android:paddingLeft="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/huise"/>
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:id="@+id/tv_collect"
+                        android:text="我的点赞"
+                        android:gravity="center_vertical"
+                        android:textSize="16sp"
+                        android:paddingLeft="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/huise"/>
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+        <Button
+            android:id="@+id/tuichu"
+            android:textColor="@color/bai"
+            android:layout_margin="20dp"
+            android:background="@drawable/button2"
+            android:text="退出"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

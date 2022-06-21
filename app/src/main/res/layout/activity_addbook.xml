@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bai"
+    tools:context="com.flag.myapplication.car.AddJingdianActivity">
+    <include layout="@layout/title"/>
+
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/addimageg"
+            android:scaleType="fitXY"
+            android:src="@mipmap/tubiaolunkuo"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+        </ImageView>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_margin="10dp"
+            android:text="标题"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:background="#fff"
+            android:hint="请输入了标题"
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+    <View
+        android:background="#CACACA"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_margin="10dp"
+            android:text="路线"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:background="#fff"
+            android:hint="请输入路线"
+            android:id="@+id/IBSMtv"
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+    <View
+        android:background="#CACACA"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_margin="10dp"
+            android:text="类别"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:layout_marginLeft="10dp"
+            android:background="#fff"
+            android:id="@+id/typesp"
+            android:entries="@array/typearray"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+    <View
+        android:background="#CACACA"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_margin="10dp"
+            android:text="人员"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:background="#fff"
+            android:hint="请输入人员"
+            android:id="@+id/zhuoztv"
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+    <View
+        android:background="#CACACA"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_margin="10dp"
+            android:text="价格"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:background="#fff"
+            android:hint="请输入价格"
+            android:id="@+id/jiagettv"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+
+    <View
+        android:background="#CACACA"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_margin="10dp"
+            android:text="打分"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:background="#fff"
+            android:hint="请输入了分数"
+            android:id="@+id/fenshu"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+
+
+    <View
+        android:background="#CACACA"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+
+        android:hint="请输入简介"
+        android:id="@+id/neirong"
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <Button
+        android:id="@+id/commotbutton"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:text="提交"
+        android:textSize="16sp"
+        android:textColor="@color/bai"
+        android:background="@drawable/button2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></Button>
+
+
+</LinearLayout>

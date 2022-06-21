@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">app</string>
+
+    <string name="abroad_photo">拍照</string>
+    <string name="abroad_choosephotp">从相册选择</string>
+    <string name="abroad_cancel">取消</string>
+    <string name="xzlx">请选择类型</string>
+
+
+    <array name="typearray">
+        <item>地文景观</item>
+        <item>人文景观</item>
+        <item>宗教文化</item>
+        <item>城乡风貌</item>
+        <item>人工造景</item>
+        <item>饮食购物</item>
+    </array>
+</resources>
